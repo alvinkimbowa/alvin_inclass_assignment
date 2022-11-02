@@ -5,7 +5,7 @@
 #include <string>
 #include <fstream>
 
-float even_num_average(std::string input_filepath)
+float count(std::string input_filepath)
 {
     std::string output_path {"output.txt"};
 
