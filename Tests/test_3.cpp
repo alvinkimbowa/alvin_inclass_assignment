@@ -4,5 +4,5 @@
 #include <cmath>
 
 TEST_CASE( "Tests3", "[T2]" ) {
-    REQUIRE(fabs(test_code("Tests/input3.txt") - 979.8339920948616) < 0.01);
+    REQUIRE(test_code("Tests/input3.txt")==12);
 }
