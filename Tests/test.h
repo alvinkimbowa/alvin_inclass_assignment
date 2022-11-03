@@ -8,7 +8,7 @@
 
 float test_code(std::string path)
 {
-    even_num_average(path);
+    count(path);
 
     float average;
     std::ifstream infile;
